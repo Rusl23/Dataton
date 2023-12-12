@@ -52,7 +52,6 @@ def handle_response(text: str)->str:
 * Пожалуйста вводите только цифры (кроме направлнеия ветра), как в примере:  59, 30.4, 84, 68.92, 5.62, 13'
     s = get_predict(text)
     return s
-    return 'Sorry, I do not understand'
 
 def get_predict(text):
     
