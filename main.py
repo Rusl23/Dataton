@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-TOKEN: Final = '6730826958:AAEnVW_2n4AxkNHKp-G4t610SQV1tvnf6Zc'
+TOKEN: Final = 
 BOT_USERNAME: Final = '@Solar_rad_bot'
 
 
