@@ -27,7 +27,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Введите: \n \
-    1.Температуру \n \
+    1. Температуру \n \
     2. Атмосферное давление \n \
     3. Влажность \n \
     4. Направление ветра(в градусах) \n \
@@ -49,10 +49,9 @@ def handle_response(text: str)->str:
     5. Скорость ветра (м/с) \n \
     6. Время суток (в часах, например 14) \n \
     7. Разделитель точка \n \
-* Пожалуйста вводите только цифры (кроме направлнеия ветра), как в примере:  59, 30.4, 84, 68.92, 5.62, 13'
+* Пожалуйста вводите только цифры (кроме направлeния ветра), как в примере:  59, 30.4, 84, 68.92, 5.62, 13'
     s = get_predict(text)
     return s
-    return 'Sorry, I do not understand'# эту строку нужно удалить, т.к. нерабочая
 
 def get_predict(text):
     
